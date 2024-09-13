@@ -1,3 +1,5 @@
+import { text } from 'framer-motion/client';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,7 +13,8 @@ export default {
         bg_secondary: '#0EC8CA',
         bg_card: '#110F13',
         text_primary: '#FEFEFE',
-        text_secondary: '#565358',
+        text_secondary: '#9F9CA1',
+        text_tertiary: '#565358',
       },
     },
   },
