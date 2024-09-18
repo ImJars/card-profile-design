@@ -6,7 +6,7 @@ function App() {
       <section className="h-screen w-screen bg-gradient-to-r from-bg_primary to-bg_secondary font-sans">
         <div className="w-full h-full flex justify-center items-center">
           <div className="bg-bg_card w-[40%] h-[40%] rounded-2xl flex justify-center items-center">
-            <div className="flex space-x-8 justify-between">
+            <div className="flex justify-between">
               <div className="flex transform -translate-x-10">
                 <img
                   src="profile.jpg"
@@ -14,24 +14,27 @@ function App() {
                   alt=""
                 />
               </div>
-              <div className="w-[60%]">
-                <h1 className="text-text_primary text-3xl">Angel Ramirez</h1>
-                <h2 className="text-text_secondary text-lg">
-                  Software engineering
-                </h2>
-                <p className="text-text_tertiary text-base mt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  quod quae, voluptate, quos, quas quia quibusdam voluptatibus
-                  sit et dolores iusto. Eaque, quod. Quisquam, quidem.
-                </p>
-                <div className="mt-4">
-                  <div className="w-full flex space-x-6">
-                    <button className="border-text_primary border rounded-xl text-text_primary px-8 py-2">
-                      Profile
-                    </button>
-                    <button className="border-text_primary border rounded-xl bg-text_primary text-bg_card px-8 py-2">
-                      Follow
-                    </button>
+              <div className="w-[65%] flex justify-center items-center">
+                <div className="mr-10">
+                  <h1 className="text-text_primary text-3xl">Angel Ramirez</h1>
+                  <h2 className="text-text_secondary text-lg">
+                    Software engineering
+                  </h2>
+                  <p className="text-text_tertiary text-base mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis quod quae, voluptate, quos, quas quia quibusdam
+                    voluptatibus sit et dolores iusto. Eaque, quod. Quisquam,
+                    quidem.
+                  </p>
+                  <div className="mt-4">
+                    <div className="w-full flex space-x-6">
+                      <button className="border-text_primary border rounded-xl text-text_primary px-8 py-2">
+                        Profile
+                      </button>
+                      <button className="border-text_primary border rounded-xl bg-text_primary text-bg_card px-8 py-2">
+                        Follow
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
