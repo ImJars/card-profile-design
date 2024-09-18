@@ -1,5 +1,12 @@
 import React from "react";
-
+import { TbWorldCode } from "react-icons/tb";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebookSquare,
+} from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 function App() {
   return (
     <>
@@ -16,7 +23,7 @@ function App() {
               </div>
               <div className="w-[65%] flex justify-center items-center">
                 <div className="mr-10">
-                  <h1 className="text-text_primary text-3xl">Angel Ramirez</h1>
+                  <h1 className="text-text_primary text-3xl mt-4">Angel Ramirez</h1>
                   <h2 className="text-text_secondary text-lg">
                     Software engineering
                   </h2>
@@ -34,6 +41,42 @@ function App() {
                       <button className="border-text_primary border rounded-xl bg-text_primary text-bg_card px-8 py-2">
                         Follow
                       </button>
+                    </div>
+                  </div>
+                  <div className="mt-6">
+                    <div className="flex justify-end">
+                      <ul className="text-text_secondary flex space-x-2">
+                        <li>
+                          <a href="#">
+                            <TbWorldCode />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <FaGithub />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <FaLinkedin />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <BsTwitterX />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <FaInstagram />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <FaFacebookSquare />
+                          </a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
