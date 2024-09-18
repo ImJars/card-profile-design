@@ -7,6 +7,7 @@ import {
   FaFacebookSquare,
 } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import Icon from "./assets/icon";
 function App() {
   return (
     <>
@@ -23,7 +24,9 @@ function App() {
               </div>
               <div className="w-[65%] flex justify-center items-center">
                 <div className="mr-10">
-                  <h1 className="text-text_primary text-3xl mt-4">Angel Ramirez</h1>
+                  <h1 className="text-text_primary text-3xl mt-4">
+                    Angel Ramirez
+                  </h1>
                   <h2 className="text-text_secondary text-lg">
                     Software engineering
                   </h2>
@@ -45,37 +48,25 @@ function App() {
                   </div>
                   <div className="mt-6">
                     <div className="flex justify-end">
-                      <ul className="text-text_secondary flex space-x-2">
-                        <li>
-                          <a href="#">
-                            <TbWorldCode />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <FaGithub />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <FaLinkedin />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <BsTwitterX />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <FaInstagram />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <FaFacebookSquare />
-                          </a>
-                        </li>
+                      <ul className="text-text_secondary flex space-x-4">
+                        <Icon>
+                          <TbWorldCode />
+                        </Icon>
+                        <Icon>
+                          <FaGithub />
+                        </Icon>
+                        <Icon>
+                          <FaLinkedin />
+                        </Icon>
+                        <Icon>
+                          <BsTwitterX />
+                        </Icon>
+                        <Icon>
+                          <FaInstagram />
+                        </Icon>
+                        <Icon>
+                          <FaFacebookSquare />
+                        </Icon>
                       </ul>
                     </div>
                   </div>
