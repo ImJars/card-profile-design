@@ -13,24 +13,24 @@ function App() {
     <>
       <section className="h-screen w-screen bg-gradient-to-r from-bg_primary to-bg_secondary font-sans">
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-bg_card w-[40%] h-[40%] rounded-2xl flex justify-center items-center">
-            <div className="flex justify-between">
-              <div className="flex transform -translate-x-10">
+          <div className="bg-bg_card w-[50%] lg:w-[50%] lg:h-[40%] 2xl:w-[40%] rounded-2xl flex justify-center items-center">
+            <div className="flex flex-col justify-center lg:flex-row lg:justify-between">
+              <div className="flex items-center justify-center transform -translate-y-1/2 lg:-translate-y-0 lg:-translate-x-1/4">
                 <img
                   src="profile.jpg"
-                  className="rounded-xl w-52 h-72 object-cover"
+                  className="rounded-full lg:rounded-xl w-48 h-48 lg:w-52 lg:h-72 object-cover"
                   alt=""
                 />
               </div>
-              <div className="w-[68%] flex justify-center items-center">
-                <div className="mr-10">
-                  <h1 className="text-text_primary text-3xl mt-4">
+              <div className="w-full lg:w-[70%] flex justify-center items-center">
+                <div className="flex flex-col mx-10 mb-10 -mt-20 lg:mb-0 lg:mx-0 lg:-mt-0 lg:mr-10">
+                  <h1 className="text-text_primary text-3xl mt-4 flex font-semibold justify-center lg:justify-start">
                     Angel Ramirez
                   </h1>
-                  <h2 className="text-text_secondary text-lg">
+                  <h2 className="text-text_secondary text-lg flex justify-center lg:justify-start">
                     Software engineering
                   </h2>
-                  <p className="text-text_tertiary text-base mt-2 font-semibold">
+                  <p className="text-text_tertiary text-base mt-2 font-semibold flex justify-center lg:justify-start text-center lg:text-start">
                     With over 3 years of experience in software development, I
                     am passionate about programming and problem-solving. I
                     specialize in web development, mobile applications, and
@@ -38,7 +38,7 @@ function App() {
                     opportunities for improvement.
                   </p>
                   <div className="mt-4">
-                    <div className="w-full flex space-x-6">
+                    <div className="w-full flex space-x-6 justify-center lg:justify-start">
                       <a
                         className="border-text_primary border rounded-xl text-text_primary px-8 py-2 hover:bg-text_primary hover:text-bg_card transition-all duration-300 ease-in-out"
                         href="https://jarsdev.netlify.app/blog"
@@ -58,7 +58,7 @@ function App() {
                     </div>
                   </div>
                   <div className="mt-6">
-                    <div className="flex justify-end">
+                    <div className="flex justify-center lg:justify-end">
                       <ul className="text-text_secondary flex space-x-4">
                         <Icon link={"https://jarsdev.netlify.app/"}>
                           <TbWorldCode />
