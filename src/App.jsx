@@ -13,7 +13,7 @@ function App() {
     <>
       <section className="h-screen w-screen bg-gradient-to-r from-bg_primary to-bg_secondary font-sans">
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-bg_card w-[50%] lg:w-[50%] lg:h-[40%] 2xl:w-[40%] rounded-2xl flex justify-center items-center">
+          <div className="bg-bg_card w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] lg:h-[40%] 2xl:w-[40%] rounded-2xl flex justify-center items-center">
             <div className="flex flex-col justify-center lg:flex-row lg:justify-between">
               <div className="flex items-center justify-center transform -translate-y-1/2 lg:-translate-y-0 lg:-translate-x-1/4">
                 <img
@@ -30,7 +30,7 @@ function App() {
                   <h2 className="text-text_secondary text-lg flex justify-center lg:justify-start">
                     Software engineering
                   </h2>
-                  <p className="text-text_tertiary text-base mt-2 font-semibold flex justify-center lg:justify-start text-center lg:text-start">
+                  <p className="text-text_tertiary text-sm sm:text-base mt-2 font-semibold flex justify-center lg:justify-start text-center lg:text-start">
                     With over 3 years of experience in software development, I
                     am passionate about programming and problem-solving. I
                     specialize in web development, mobile applications, and
